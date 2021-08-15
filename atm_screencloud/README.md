@@ -3,7 +3,9 @@
 </h1>
 
 
-# Problem 
+# Description
+Create an ATM app to provide a solution to the following problem: 
+
 It’s payday and there’s a new Pokémon game in town so Michael wants to buy a Switch 🎉
 It costs £270, and we’d like you to build an ATM web app he can use.
 He will need to enter his PIN ( 1111 ) which you should check against the PIN API. The API will tell you his current
