@@ -70,6 +70,18 @@ To run tests, run the following command
 ## Limitations
 There were a few issues configuring react on cypress. This limited the amount of tests I could do and also I created less components as a result of
 being unable to mount components.
+
+If I had more time, I would have:
+Added modals to appear when the withdrawal was successful or when there was an error.
+The balance colour would change from green to red when the user was overdrawn
+Some animations,such as on the Login screen showing a card going into the ATM machine
+Also on the login screen and the withdrawal page I would have included a number keypad
+If I had more time I would have tested the app thoroughly, for example some of the tests could have included:
+Check that the number of notes equals the machine total?
+Check if balance was more than £220?
+Check if overdraft was increased would the logic still work? 
+Test on different browsers
+
   
 ## Authors
 
