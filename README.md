@@ -33,7 +33,6 @@ Your ATM allows an overdraft of up to £100 and should let users know if they do
 Install atm_screencloud with npm
 
 ```bash
-cd atm
   npm install atm_screencloud
   
 ```
