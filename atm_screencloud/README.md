@@ -33,7 +33,6 @@ Your ATM allows an overdraft of up to £100 and should let users know if they do
 Install atm_screencloud with npm
 
 ```bash
-cd atm
   npm install atm_screencloud
   
 ```
@@ -48,7 +47,13 @@ POST https://frontend-challenge.screencloud-michael.now.sh/api/pin/
 ```
 
 
+## Using the App
 
+- User is presented with a Login Page where they type in their pin
+- On successful login, the user is taken to their Account Page, where they can click on the Withdraw Cash button
+- User will be taken to the Withdraw Cash page where they can type in the amount they wish to withdraw.
+- If withdrawal has been successful, the user will be taken back to the Account Page where they will see their Balance
+- On the Account Page the user can see the Machine Total along with the number of each of the £5, £10, £20 denominations
 
 
   
@@ -69,12 +74,22 @@ To run tests, run the following command
  npx cypress open
 ```
 ## Limitations
-There was a few issues configuring react on cypress. This limited the amount of tests I could do and also I created less components as a result of
+There were a few issues configuring react on cypress. This limited the amount of tests I could do and also I created less components as a result of
 being unable to mount components.
 
+If I had more time, I would have:
+Split the logic into utility functions
+Added modals to appear when the withdrawal was successful or when there was an error.
+The balance colour would change from green to red when the user was overdrawn
+Some animations,such as on the Login screen showing a card going into the ATM machine
+Also on the login screen and the withdrawal page I would have included a number keypad
+If I had more time I would have tested the app thoroughly, for example some of the tests could have included:
+Check that the number of notes equals the machine total?
+Check if balance was more than £220?
+Check if overdraft was increased would the logic still work? 
+Test on different browsers
 
   
 ## Authors
 
 - [@gerardwilson](https://www.github.com/wilsong100)
-
