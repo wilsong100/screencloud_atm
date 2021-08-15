@@ -68,6 +68,10 @@ To run tests, run the following command
 ```bash
  npx cypress open
 ```
+## Limitations
+There was a few issues configuring react on cypress. This limited the amount of tests I could do and also I created less components as a result of
+being unable to mount components.
+
 
   
 ## Authors
