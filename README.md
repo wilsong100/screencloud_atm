@@ -47,7 +47,13 @@ POST https://frontend-challenge.screencloud-michael.now.sh/api/pin/
 ```
 
 
+## Using the App
 
+- User is presented with a Login Page where they type in their pin
+- On successful login, the user is taken to their Account Page, where they can click on the Withdraw Cash button
+- User will be taken to the Withdraw Cash page where they can type in the amount they wish to withdraw.
+- If withdrawal has been successful, the user will be taken back to the Account Page where they will see their Balance
+- On the Account Page the user can see the Machine Total along with the number of each of the £5, £10, £20 denominations
 
 
   
