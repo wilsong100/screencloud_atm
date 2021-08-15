@@ -78,6 +78,7 @@ There were a few issues configuring react on cypress. This limited the amount of
 being unable to mount components.
 
 If I had more time, I would have:
+Split the logic into utility functions
 Added modals to appear when the withdrawal was successful or when there was an error.
 The balance colour would change from green to red when the user was overdrawn
 Some animations,such as on the Login screen showing a card going into the ATM machine
