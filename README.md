@@ -33,7 +33,8 @@ Your ATM allows an overdraft of up to £100 and should let users know if they do
 Install atm_screencloud with npm
 
 ```bash
-  npm install atm_screencloud
+  cd atm_screencloud
+  npm install
   
 ```
     
@@ -79,7 +80,9 @@ being unable to mount components.
 
 If I had more time, I would have:
 Split the logic into utility functions
-Added modals to appear when the withdrawal was successful or when there was an error.
+Added modals to appear when the withdrawal was successful or when there was an error
+Made the app responsive
+Used Redux instead of the Context API
 The balance colour would change from green to red when the user was overdrawn
 Some animations,such as on the Login screen showing a card going into the ATM machine
 Also on the login screen and the withdrawal page I would have included a number keypad
